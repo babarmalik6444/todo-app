@@ -26,8 +26,12 @@ composer install
 ```
 
 copy .env.example file and rename it to .env
-and make a new database in mySql database, and name it what it ever you want , make sure that this name match in your .env file .
-Setup the SQLite path in .env file.
+and make a new database in mySql database, and name it what it ever you want , make sure that this name match in your .env file.
+
+```
+Setup the SQLite path in .env file. Its in database/database.sqlite
+
+```
 
 make migration for the tables 
 
